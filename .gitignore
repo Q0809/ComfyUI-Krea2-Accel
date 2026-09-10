@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ComfyUI 运行时产物（不要把图/模型提交上来）
+output/
+input/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.gguf
